@@ -261,6 +261,15 @@ header .nav-2 li a{
 header .nav-1 li a{
   color: #fff;
 }
+#rtl header .nav-1,
+#rtl header .nav-2{
+  direction: rtl;
+}
+#rtl header .nav-1 li a,
+#rtl header .nav-2 li a{
+  font-family: bejanSemiBold;
+  /* font-size: 18px; */
+}
 /* end navbar */
 
 .counter-top {
