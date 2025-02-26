@@ -265,6 +265,9 @@ header .nav-1 li a{
 #rtl header .nav-2{
   direction: rtl;
 }
+#rtl .counter-top a.btn {
+  font-family: bejanSemiBold;
+}
 #rtl header .nav-1 li a,
 #rtl header .nav-2 li a{
   font-family: bejanSemiBold;
