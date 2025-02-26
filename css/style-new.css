@@ -273,6 +273,26 @@ header .nav-1 li a{
   font-family: bejanSemiBold;
   /* font-size: 18px; */
 }
+#rtl .rtl.welcome-page p,
+#rtl .rtl.theme-page p{
+  font-size: 19px;
+  text-align: right;
+  direction: rtl;
+}
+#rtl .rtl.welcome-page h4,
+#rtl .rtl.theme-page h4{
+  font-size: 28px;
+  font-family: bejanBold;
+}
+#rtl .rtl.welcome-page p,
+#rtl .rtl.theme-page p,
+#rtl .welcome-page h4,
+#rtl .theme-page h4{
+  font-family: bejanSemiBold;
+}
+#rtl .welcome-page strong, #rtl .theme-page strong{
+  font-family: bejanBold;
+}
 /* end navbar */
 
 .counter-top {
